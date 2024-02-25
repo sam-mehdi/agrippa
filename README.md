@@ -16,6 +16,7 @@ Create a `.env` file in the root directory with the following content:
 
 ```env
 OPENAI_API_KEY=<your_openai_api_key>
+USER_NAME=<your name. used when signing emails>_
 ```
 
 For other credentials, create an `env` folder in the root directory. Include the following files:
