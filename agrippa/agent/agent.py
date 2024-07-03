@@ -15,7 +15,7 @@ from langchain_openai import ChatOpenAI
 
 model = ChatOpenAI()
 
-# Prepare agent message
+# Prepare agent messages
 from agrippa.agent.prompts import system_message
 from langchain import hub
 
@@ -24,7 +24,7 @@ prompt = base_prompt.partial(instructions=system_message)
 
 # Create agent with tools
 from langchain.agents import AgentExecutor, create_openai_functions_agent
-from agrippa.tools.index import all_tools
+from agrippa.tools.all_tools import all_tools
 
 agent = AgentExecutor(agent=create_openai_functions_agent(model, all_tools, prompt), tools=all_tools)
 
