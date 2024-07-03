@@ -1,6 +1,8 @@
 # agrippa
 [Agrippa](https://en.wikipedia.org/wiki/Marcus_Vipsanius_Agrippa) AI. For doing everything that [Octavian](https://en.wikipedia.org/wiki/Augustus) doesn't feel like doing.
 
+https://github.com/sam-mehdi/agrippa/assets/69536392/117a767d-2315-487c-aaf7-5185e14c81ee
+
 ## Setup
 
 ```bash
